@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	  <head>
+			<link rel="stylesheet" href="SFUE.css">
+			<title>SFEU Managment System</title>
+		</head>
+		<body>
+<h1>SFEU Managment System</h1>
+<div align="center">
+	<h3>by David F Kennedy</h3>
+</div>
+<h5>Version 1.3 / Updated 27 August 2017</h5>
+
+<p>Below the following headers one will find a guide to setting up and organizing a filesystem for digital media management, with a focus on video editing and post-production in a macOS environment using Adobe Creative Cloud.</p>
+
+<h2> Filesystem </h2>
+<p>Every project should be sorted into the <strong>Active Projects</strong> folder and not moved from it until completed. Inside the <strong>Active Projects</strong> folder, create <i>3</i> subfolders:
+	<ol>
+ 			<li> Assets </li>
+			<li> Exports </li>
+			<li> Project Files </li>
+	</ol>
+</p>
+
+<h3>Assets</h3>
+<p>The <i>Assets</i> folder contains three subfolders:
+	<ol>
+ 			<li> Source Audio </li>
+			<li> Source Video </li>
+			<li> User Files </li>
+	</ol>
+	<ul>
+		<li> Inside <i>Source Audio</i>, the user places any audio files they have been given for the project. This folder may also contain subfolders for <i>Room Tone</i>, <i>Sound Effects/Foley</i>, or <i>Music</i>, if applicable.</li>
+	  <li> Inside <i>Source Video</i>, the user places any video files they have been given for the project. This includes bundles such as AVHD folders from Canon cameras. </li>
+		<li> <i>User Files</i> can contain any number of subfolders that follow the proper naming convention (i.e. <i>Graphics</i>, <i>Photos</i>, etc.) and serves as a place for users to place any files they have downloaded or generated for use in the project (i.e. photos, titles, etc). </li>
+	</ul>
+</p>
+
+<h3>Exports</h3>
+<p>
+	The <i>Exports</i> folder contains no subfolders and serves as a container for exported files. Files are exported using the naming convention (elaborated below).
+
+<h3>Project Files</h3>
+The <i>Project Files</i> folder contains at least two subfolders:
+	<ol>
+		<li> Autosaves </li>
+		<li> [Software Name] </li>
+	</ol>
+	<ul>
+		<li><i>Autosaves</i> serves as a scratch disk for the all software used on the project's autosaves.</li>
+		<li><i>[Software Name]</i> folders are named in accordance with the software used (i.e. After Effects, Premiere, Pro Tools) and contain the official user save files. If multiple save files are used, all versions go in their respective software folders in accordance with the naming convention (elaborated below).</li>
+	</ul>
+</p>
+
+<h2> Naming Conventions </h2>
+<h3>Projects</h3>
+	<p>
+		The naming convention for a project file is as follows:
+		<br>
+		<br>
+	<i>ProjectName - User - revision number.file_extension</i>
+		<br>
+		for projects where most of the work is being done in one suite
+		<br>
+		and
+		<br>
+	<i>ProjectName - Specification - User - revision number.file_extension</i>
+		<br>
+		<br>
+For example:
+	<ul>
+		<li><i>RepoMan - Cox - Rev 3.prproj</i></li>
+		<li><i>StarWars - Sound - Williams - Rev 2.ptx</i></li>
+	</ul>
+		<br>
+		<br>
+		Use last name only unless multiple people working on the project share a last name. In this case use <i>first inital last name</i>:
+	<ul>
+		<li><i>Heat - S Rubio T Rubio - Rev 1.prproj</i></li>
+	</ul>
+
+	<i>General Considerations</i>
+	<ul>
+	 	<li> Avoid using terms like "<i>Final</i>" or "<i>Master</i>" in your file naming. You and I both know that the second you label something _"Final"_, you're going to be asked to change something.</li>
+		<li> If you have to deviate from this naming convention at any point, make sure you follow this rule: **people should know what the file is without having to open it**, and name accordingly.</li>
+	</ul>
+	</p>
+
+
+<h2> Storage Procedures </h2>
+	<p>
+		Unless otherwise specified by a project lead, a MacOS (Journaled) drive is the prefered for use in media managment. In a Windows environment, NTFS should be fine.
+
+<h3>Backing Up</h3>
+	<i>Always! Always! Always!</i> Keep a backup of your ENTIRE project folder. This becomes a challenge on larger and larger projects, but there are many software solutions for scheduling backups, but as a general rule of thumb: <i>always transfer your folder to your backup drive at the end of the day</i>. When it comes to redundant backups, remember this rule: <i>the more important the project, the more backups you make</i>.
+	</p>
+
+<h2> Software Workflow </h2>
+	<p>
+		This section will expand as I experiment with new software, and will serve as a basic setup guide to ensuring that anyone following SFEU will be able to sit down and start working at any computer.
+	</p>
+<h3>Adobe Premiere CC</h3>
+	<p>
+	 When you first create a new project, immediately create the following bins:
+	 	<ul>
+		 	<li>Graphics/Titles</li>
+			<li>Scenes</li>
+			<li>Music and Sound Effects</li>
+			<li>Raw Footage</li>
+			<li>Raw Audio</li>
+			<li>Sync Footage</li>
+		</ul>
+	While these bins are relatively self-explanatory, the <i>Raw Footage</i>, <i>Raw Audio</i>, <i>Sync Footage</i>, and <i>Scenes</i> bins need a bit more explanation.
+		<ol>
+			<li><i> Raw Footage </i></li>
+					This bin is a container for the footage straight from the camera, completely unedited. After you finish syncing, it is unlikely that you will have to spend any time here, but it is good to have as a backup.
+			<li><i> Raw Audio </i></li>
+					This bin contains the audio straight from the recorder.
+			<li><i> Sync Footage </i></li>
+					This is the bin you will most likely be focusing on. After you sync all your raw audio with raw footage and combine the two, the linked file is placed in this bin.
+			<li><i> Scenes </i></li>
+				This bin is where you put any sequences created.
+		</ol>
+		<br>
+		The end goal of all of these bins is to make it so that there are no random files floating around the media manager, everything has a place.
+
+<h4>Premiere Naming Conventions</h4>
+		Within your media manager, the following naming and sorting conventions should be followed to ensure clarity.
+		<ol>
+			<li><i> Scenes </i></li>
+					Break the footage up into scenes, each in a numbered bin that corresponds with your shotlist (i.e. the footage from scene 1 is in a bin marked "<i>1</i>")
+					<br>
+					<br>
+			<li><i> File names </i></li>
+	Because you will be inundated with files with memorable names such as MTS_0201.MOV (a classic), go through the footage and name each clip by its shot number like so.
+		<br>
+		<br>
+		<div align="center">
+			<i>Scene - Angle | Take</i>
+		</div>
+	Or, translated, Scene 2 Angle 4 Take 3 would be:
+		<br>
+		<br>
+		<div align="center">
+			<i>2 - 4 | 3</i>
+		</div>
+		</ol>
+			If there is an assistant editor, it may be good to create a description of the content of each shot.
+	</p>
+	</body>
+</html>

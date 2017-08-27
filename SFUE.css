@@ -1,0 +1,44 @@
+body {
+    background-color: #f4f4f4;
+}
+
+@font-face {
+    font-family: "fut-embed";
+    src: url(Futura.ttc) format("truetype");
+}
+h1 {
+    color: #373737;
+    text-align: center;
+    font-family: "fut-embed", Futura, sans-serif;
+    font-weight: lighter;
+}
+
+h2{
+  color: #373737
+  font-family: "fut-embed", Futura;
+  font-weight: lighter;
+}
+
+h3 {
+  color: #373737
+  font-family: "fut-embed", Futura;
+  font-weight: lighter;
+}
+
+h4 {
+  color: #373737
+  font-family: "fut-embed", Futura;
+  font-weight: lighter;
+}
+
+h5 {
+  color: #373737
+  font-family: "fut-embed", Futura;
+  font-weight: lighter;
+}
+
+p {
+    color: #373737
+    font-family: Georgia;
+    font-size: 20px;
+}
